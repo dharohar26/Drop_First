@@ -4,7 +4,6 @@ import { View, Text, StyleSheet, ImageBackground, Image, ScrollView, TextInput, 
 import { responsiveHeight, responsiveWidth } from 'react-native-responsive-dimensions';
 import { responsiveFontSize } from 'react-native-responsive-dimensions';
 import LinearGradient from 'react-native-linear-gradient';
-import { AirbnbRating } from 'react-native-ratings';
 import SharedPreferences from 'react-native-shared-preferences';
 
 // create a component
@@ -18,8 +17,6 @@ const ArtistBioScreen = ({navigation}) => {
     const [genre, setGenre] = useState("");
     const [profilePicture, setProfilePicture] = useState("");
     const [stars, setStars] = useState("");
-
-
 
     SharedPreferences.getItem("firstName", function (value) {
         setFirstName(value);

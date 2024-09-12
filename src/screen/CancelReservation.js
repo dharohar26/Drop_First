@@ -2,7 +2,6 @@
 import React, { useState,useEffect } from 'react';
 import { View, Text, StyleSheet, StatusBar, ImageBackground, Image, TouchableOpacity, ScrollView, TextInput, Modal, Dimensions, FlatList,ToastAndroid } from 'react-native';
 import { responsiveWidth, responsiveHeight, responsiveFontSize } from 'react-native-responsive-dimensions';
-import { Dropdown } from 'react-native-element-dropdown';
 import LinearGradient from 'react-native-linear-gradient';
 import SharedPreferences from 'react-native-shared-preferences';
 
